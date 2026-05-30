@@ -38,7 +38,6 @@
     opacity: 0.5;
   }
 
-  /* HEADER */
   header {
     padding: 80px 60px 60px;
     border-bottom: 1px solid var(--sepia);
@@ -94,7 +93,6 @@
     animation: fadeUp 0.7s ease forwards 0.4s;
   }
 
-  /* GRID */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
@@ -102,7 +100,6 @@
     border-top: 1px solid var(--sepia);
   }
 
-  /* CARD */
   .card {
     border-right: 1px solid var(--sepia);
     border-bottom: 1px solid var(--sepia);
@@ -131,7 +128,6 @@
 
   .card:hover::before { transform: scaleY(1); }
 
-  /* Image */
   .card-img-wrap {
     overflow: hidden;
     position: relative;
@@ -168,7 +164,6 @@
     background: linear-gradient(transparent, var(--cream));
   }
 
-  /* Body */
   .card-body {
     padding: 28px 38px 34px;
     flex: 1;
@@ -262,7 +257,6 @@
   .card-source:hover { color: var(--rust); border-color: var(--rust); }
   .card-source::after { content: ' ↗'; font-size: 9px; }
 
-  /* FOOTER */
   footer {
     padding: 48px 60px;
     border-top: 1px solid var(--sepia);
@@ -283,21 +277,20 @@
     opacity: 0.5;
   }
 
-  /* ANIMATIONS */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
   }
 
-  .card:nth-child(1) { animation-delay: 0.5s; }
-  .card:nth-child(2) { animation-delay: 0.65s; }
-  .card:nth-child(3) { animation-delay: 0.8s; }
-  .card:nth-child(4) { animation-delay: 0.95s; }
-  .card:nth-child(5) { animation-delay: 1.1s; }
-  .card:nth-child(6) { animation-delay: 1.25s; }
-  .card:nth-child(7) { animation-delay: 1.4s; }
-  .card:nth-child(8) { animation-delay: 1.55s; }
-  .card:nth-child(9) { animation-delay: 1.7s; }
+  .card:nth-child(1)  { animation-delay: 0.5s; }
+  .card:nth-child(2)  { animation-delay: 0.65s; }
+  .card:nth-child(3)  { animation-delay: 0.8s; }
+  .card:nth-child(4)  { animation-delay: 0.95s; }
+  .card:nth-child(5)  { animation-delay: 1.1s; }
+  .card:nth-child(6)  { animation-delay: 1.25s; }
+  .card:nth-child(7)  { animation-delay: 1.4s; }
+  .card:nth-child(8)  { animation-delay: 1.55s; }
+  .card:nth-child(9)  { animation-delay: 1.7s; }
   .card:nth-child(10) { animation-delay: 1.85s; }
   .card:nth-child(11) { animation-delay: 2.0s; }
   .card:nth-child(12) { animation-delay: 2.15s; }
@@ -366,12 +359,12 @@
     </div>
   </article>
 
-  <!-- 03 -->
+  <!-- 03 — fixed image: Turkish hilltop town -->
   <article class="card" style="--card-accent: #4a6070;">
     <div class="card-img-wrap">
       <img class="card-img"
-        src="https://images.unsplash.com/photo-1568730462943-3de2fc83a7c8?w=700&q=80"
-        alt="Turkish hilltop town and fortress" loading="lazy">
+        src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=700&q=80"
+        alt="Turkish town with mosque and rooftops" loading="lazy">
     </div>
     <div class="card-body">
       <div class="card-num">03</div>
@@ -418,7 +411,7 @@
       <div class="card-role">Hair &amp; Beauty · Colour &amp; Style</div>
       <h2 class="card-name">Fatih Karakurt</h2>
       <p class="card-location">Turkey</p>
-      <p class="card-blurb">Senior colour consultant and advanced cutting specialist at the Hilmi &amp; Necdet salon — a hairdresser who has turned aesthetics into craft. With nearly 7,000 followers on Instagram, he shares his work in colour, texture, and transformation. Where other Fatih Karakurts reshape digital systems or political landscapes, this one reshapes how people see themselves in the mirror. An intimate, daily kind of power.</p>
+      <p class="card-blurb">Senior colour consultant and advanced cutting specialist at the Hilmi &amp; Necdet salon — a hairdresser who has turned aesthetics into craft. With nearly 7,000 followers on Instagram, he shares his work in colour, texture, and transformation. He reshapes how people see themselves in the mirror. An intimate, daily kind of power.</p>
       <div class="card-footer">
         <span class="card-tag">Beauty &amp; Style</span>
         <a class="card-source" href="https://www.instagram.com/fatihkarakurt/" target="_blank" rel="noopener">Instagram</a>
@@ -426,12 +419,12 @@
     </div>
   </article>
 
-  <!-- 06 -->
+  <!-- 06 — fixed image: mystical / cosmic / stars -->
   <article class="card" style="--card-accent: #7a4a9a;">
     <div class="card-img-wrap">
       <img class="card-img"
-        src="https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?w=700&q=80"
-        alt="Mystical numerology numbers cosmic symbols" loading="lazy">
+        src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=700&q=80"
+        alt="Stars and cosmos night sky" loading="lazy">
     </div>
     <div class="card-body">
       <div class="card-num">06</div>
@@ -506,7 +499,6 @@
     </div>
   </article>
 
-
   <!-- 10 -->
   <article class="card" style="--card-accent: #3a7a3a;">
     <div class="card-img-wrap">
@@ -519,13 +511,14 @@
       <div class="card-role">Football · Referee</div>
       <h2 class="card-name">Fatih Karakurt</h2>
       <p class="card-location">Turkey</p>
-      <p class="card-blurb">A registered football referee listed on both Transfermarkt and the Turkish Football Federation (TFF) — the official body governing the game in Turkey. While others named Fatih Karakurt build apps or balance spreadsheets, this one runs the lines, calls the fouls, and carries the authority of the whistle. The TFF profile confirms active duty; Transfermarkt tracks his match record season by season.</p>
+      <p class="card-blurb">A registered football referee listed on both Transfermarkt and the Turkish Football Federation (TFF) — the official body governing the game in Turkey. He runs the lines, calls the fouls, and carries the authority of the whistle. The TFF profile confirms active duty; Transfermarkt tracks his match record season by season.</p>
       <div class="card-footer">
         <span class="card-tag">Football</span>
         <a class="card-source" href="https://tff.org/Default.aspx?pageId=531&hakemId=1884074" target="_blank" rel="noopener">TFF Profile</a>
       </div>
     </div>
   </article>
+
   <!-- 11 -->
   <article class="card" style="--card-accent: #8a6a4a;">
     <div class="card-img-wrap">
@@ -538,14 +531,13 @@
       <div class="card-role">Education · Turkish Language &amp; Literature</div>
       <h2 class="card-name">Fatih Karakurt</h2>
       <p class="card-location">Turgutlu, Manisa, Turkey</p>
-      <p class="card-blurb">A Turkish Language and Literature teacher at Hasan Ferdi Turgutlu Vocational and Technical Anatolian High School. Married, a father of two, his wife Tuğba was also a teacher at a neighbouring school. He gave his working life to language — to the poems, stories, and grammar that shape how a people understand themselves. He passed away in October 2024, aged 44, in an accident at his home. His name is listed with care here.</p>
+      <p class="card-blurb">A Turkish Language and Literature teacher at Hasan Ferdi Turgutlu Vocational and Technical Anatolian High School. Married, a father of two, his wife Tuğba was also a teacher at a neighbouring school. He gave his working life to language — to the poems, stories, and grammar that shape how a people understand themselves. He no longer plays this game of life.</p>
       <div class="card-footer">
         <span class="card-tag">In Memoriam</span>
         <a class="card-source" href="https://www.hurriyet.com.tr/gundem/manisada-evinin-balkonundan-dusen-ogretmen-oldu-42566719" target="_blank" rel="noopener">Hürriyet</a>
       </div>
     </div>
   </article>
-
 
   <!-- 12 -->
   <article class="card" style="--card-accent: #a06030;">
@@ -571,15 +563,15 @@
   <article class="card" style="--card-accent: #507080;">
     <div class="card-img-wrap">
       <img class="card-img"
-        src="https://images.unsplash.com/photo-1452780212461-b9840657abf8?w=700&q=80"
-        alt="Camera lens and photography equipment" loading="lazy">
+        src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=700&q=80"
+        alt="Camera and photography equipment on table" loading="lazy">
     </div>
     <div class="card-body">
       <div class="card-num">13</div>
       <div class="card-role">Photography &amp; Videography</div>
       <h2 class="card-name">Fatih Karakurt</h2>
       <p class="card-location">Turkey</p>
-      <p class="card-blurb">A professional photographer and videographer working under the studio name <em>irem foto</em>. While most Fatih Karakurts in this collection build things in code, steel, or policy, this one builds with light — framing moments, composing scenes, and turning the fleeting into something permanent. The studio name suggests a personal, family-centred practice: the kind of work that marks weddings, portraits, and the quiet ceremonies of ordinary life.</p>
+      <p class="card-blurb">A professional photographer and videographer working under the studio name <em>irem foto</em>. He builds with light — framing moments, composing scenes, and turning the fleeting into something permanent. The studio name suggests a personal, family-centred practice: the kind of work that marks weddings, portraits, and the quiet ceremonies of ordinary life.</p>
       <div class="card-footer">
         <span class="card-tag">Photography</span>
         <a class="card-source" href="https://tr.linkedin.com/in/fatih-karakurt-a59284a8" target="_blank" rel="noopener">LinkedIn</a>
@@ -599,7 +591,7 @@
       <div class="card-role">Open Source · iOS Engineer</div>
       <h2 class="card-name">Fatih Karakurt</h2>
       <p class="card-location">Cologne, Germany</p>
-      <p class="card-blurb">An iOS engineer on GitHub as <em>Kurt57</em>, based in Cologne. His public repositories include a fork of DeepLearningKit — an open source deep learning framework for Apple's iOS, OS X and tvOS — and a fork of DateTimePicker, a UI component for iOS apps. Active on GitHub since 2014, his personal website is fatihkarakurt.de. This is the same Fatih Karakurt as card #01 — but here seen as a developer who tinkers in the open, on his own time.</p>
+      <p class="card-blurb">An iOS engineer on GitHub as <em>Kurt57</em>, based in Cologne. His public repositories include a fork of DeepLearningKit — an open source deep learning framework for Apple's iOS, OS X and tvOS — and a fork of DateTimePicker, a UI component for iOS apps. Active on GitHub since 2014, his personal website is fatihkarakurt.de. A developer who tinkers in the open, on his own time.</p>
       <div class="card-footer">
         <span class="card-tag">Open Source</span>
         <a class="card-source" href="https://github.com/kurt57" target="_blank" rel="noopener">GitHub</a>
@@ -607,20 +599,19 @@
     </div>
   </article>
 
-
-  <!-- 15 -->
+  <!-- 15 — fixed image: road running, no Wall Street cross-reference -->
   <article class="card" style="--card-accent: #7a3a2a;">
     <div class="card-img-wrap">
       <img class="card-img"
-        src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=700&q=80"
-        alt="Trail running mountain path" loading="lazy">
+        src="https://images.unsplash.com/photo-1502904550040-7534597429ae?w=700&q=80"
+        alt="Runner on open road at sunrise" loading="lazy">
     </div>
     <div class="card-body">
       <div class="card-num">15</div>
       <div class="card-role">Endurance Sport · Ultrarunning</div>
       <h2 class="card-name">Fatih Karakurt</h2>
       <p class="card-location">Jersey City, NJ, USA</p>
-      <p class="card-blurb">A registered ultrarunner with a race results profile on ultrarunning.com — the definitive database of ultra-distance running events. The same Fatih Karakurt as the Wall Street finance professional (card #07), now seen in a very different context: out on trails, covering distances most people would only travel by car. His Goodreads shelf includes <em>The Haywire Heart</em> — a book about what excessive exercise can do to the human heart. He knows the risk.</p>
+      <p class="card-blurb">A registered ultrarunner with a race results profile on ultrarunning.com — the definitive database of ultra-distance running events. Out on trails and roads, covering distances most people would only travel by car. His Goodreads shelf includes <em>The Haywire Heart</em> — a book about what excessive exercise can do to the human heart. He knows the risk, and runs anyway.</p>
       <div class="card-footer">
         <span class="card-tag">Ultrarunning</span>
         <a class="card-source" href="https://ultrarunning.com/calendar/runner/view/Fatih-Karakurt-21d54c0a-106b-11ea-b574-624db84c3c72" target="_blank" rel="noopener">ultrarunning.com</a>
@@ -644,6 +635,26 @@
       <div class="card-footer">
         <span class="card-tag">Stack Overflow</span>
         <a class="card-source" href="https://stackoverflow.com/users/351872/karakfa" target="_blank" rel="noopener">Stack Overflow</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- 17 -->
+  <article class="card" style="--card-accent: #c0392b;">
+    <div class="card-img-wrap">
+      <img class="card-img"
+        src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=700&q=80"
+        alt="YouTube content creator recording video" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-num">17</div>
+      <div class="card-role">Content Creation · YouTube</div>
+      <h2 class="card-name">Fatih Karakurt</h2>
+      <p class="card-location">Jersey City, NJ, USA</p>
+      <p class="card-blurb">A YouTube channel without a manifesto — and all the better for it. No coherent topic, by the creator's own admission. What you get instead: AI-generated video clips and music, glimpses of a private life (reason unknown), running progress, and cold exposure experiments. Unfiltered, unthemed, and apparently unconcerned with the algorithm.</p>
+      <div class="card-footer">
+        <span class="card-tag">YouTube</span>
+        <a class="card-source" href="https://www.youtube.com/@FatihKarakurt" target="_blank" rel="noopener">YouTube</a>
       </div>
     </div>
   </article>
